@@ -1,0 +1,68 @@
+baseURL = "https://patali.in/"
+copyright = "© Copyright 2020"
+disqusShortname = ""
+googleAnalytics = ""
+languageCode = "en-us"
+paginate = 5
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+pygmentsstyle = "monokai"
+theme = "ezhil"
+title = "patali.in"
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 3
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[params]
+author = "Sharath Patali"
+avatar = "https://patali-blogs-bucket.s3.us-east-2.amazonaws.com/patali.in/myprofile.jpg"
+description = ""
+disableDisqusTypes = ["page"]
+favicon = ""
+mainSections = ["posts"]
+mode = "dark"
+subtitle = "Notes from a perpetual student"
+
+[params.errorpage]
+image = "https://patali-blogs-bucket.s3.us-east-2.amazonaws.com/patali.in/patali_in_404.jpg"
+title = "Nothing to see here. Move along!"
+
+[[params.social]]
+icon = "github"
+name = "Github"
+url = "https://github.com/patali"
+
+[[params.social]]
+icon = "twitter"
+name = "Twitter"
+url = "https://twitter.com/sharathpatali"
+
+[[params.social]]
+icon = "linkedin"
+name = "Linkedin"
+url = "https://www.linkedin.com/in/sharathpatali/"
+
+[[params.social]]
+icon = "rss"
+name = "RSS"
+url = "/index.xml"
+
+[taxonomies]
+tag = "tags"
