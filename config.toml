@@ -45,7 +45,7 @@ image = "https://patali-blogs-bucket.s3.us-east-2.amazonaws.com/patali.in/patali
 title = "Nothing to see here. Move along!"
 
 [params.staticman]
-branch = "master"
+branch = "main"
 endpoint = "https://pataliblog-staticman.fly.dev/v2/entry"
 repository = "blog"
 username = "patali"
