@@ -1,5 +1,5 @@
 baseURL = "https://patali.in/"
-copyright = "© Copyright 2020"
+copyright = "© Copyright 2022"
 disqusShortname = ""
 googleAnalytics = ""
 languageCode = "en-us"
@@ -43,6 +43,12 @@ subtitle = "Notes from a perpetual student"
 [params.errorpage]
 image = "https://patali-blogs-bucket.s3.us-east-2.amazonaws.com/patali.in/patali_in_404.jpg"
 title = "Nothing to see here. Move along!"
+
+[params.staticman]
+branch = "master"
+endpoint = "https://pataliblog-staticman.fly.dev/v2/entry"
+repository = "patali.in"
+username = "patali"
 
 [[params.social]]
 icon = "github"
